@@ -1,0 +1,345 @@
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    .what_we_do_text h3 {
+        font-size: 32px;
+    }
+
+    .leadership_text h3,
+    .leadership_text h3 span {
+        max-width: 65%;
+    }
+
+    .donation_form_content .amount_box button {
+        padding: 10px 22px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .what_we_do_text h3 {
+        font-size: 32px;
+    }
+
+    .leadership_text h3,
+    .leadership_text h3 span {
+        max-width: 53%;
+    }
+
+    .donation_form_content .amount_box button {
+        padding: 10px 30px;
+    }
+
+    .main_menu .navbar-collapse {
+        max-width: 70%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .main_menu {
+        height: 70px;
+    }
+
+    .main_menu .navbar-brand {
+        width: 65px;
+    }
+
+    .main_menu .container {
+        padding: 16px 15px !important;
+    }
+
+    #navbarSupportedContent {
+        background: #fff;
+        padding: 20px;
+        border-top: 1px solid #ddd;
+        margin-top: 5px;
+        border-radius: 0px 0px 10px 10px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-weight: 400;
+        padding: 10px 25px;
+    }
+
+    .main_menu .menu_right {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .banner div {
+        height: auto;
+    }
+
+    .banner {
+        height: auto;
+        padding: 70px 0px 100px 0px;
+    }
+
+    .what_we_do {
+        padding-top: 100px;
+    }
+
+    .what_we_do_text {
+        padding-right: 0;
+    }
+
+    .what_we_do_img {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .leadership_bg {
+        padding: 50px;
+    }
+
+    .leadership_text h3,
+    .leadership_text h3 span {
+        max-width: 70%;
+    }
+
+    .our_work_img {
+        padding: 0;
+    }
+
+    .our_work_text {
+        margin-top: 30px;
+    }
+
+    .footer_text {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .main_menu {
+        height: 70px;
+    }
+
+    .main_menu .navbar-brand {
+        width: 65px;
+    }
+
+    .main_menu .container {
+        padding: 16px 15px !important;
+    }
+
+    #navbarSupportedContent {
+        background: #fff;
+        padding: 20px;
+        border-top: 1px solid #ddd;
+        margin-top: 5px;
+        border-radius: 0px 0px 10px 10px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-weight: 400;
+        padding: 10px 25px;
+    }
+
+    .main_menu .menu_right {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .banner_text h1 {
+        font-size: 50px;
+        line-height: initial;
+    }
+
+    .banner div {
+        height: auto;
+    }
+
+    .banner {
+        height: auto;
+        padding: 70px 0px 100px 0px;
+    }
+
+    .what_we_do {
+        padding-top: 100px;
+    }
+
+    .what_we_do_text {
+        padding-right: 0;
+    }
+
+    .what_we_do_text h3 {
+        font-size: 28px;
+    }
+
+    .what_we_do_img {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .leadership_bg {
+        padding: 35px;
+    }
+
+    .leadership_text h3,
+    .leadership_text h3 span {
+        font-size: 28px;
+        line-height: initial;
+        max-width: 65%;
+    }
+
+    .leadership_text h6 {
+        font-size: 35px;
+    }
+
+    .our_work_img {
+        padding: 0;
+    }
+
+    .our_work_text {
+        margin-top: 30px;
+    }
+
+    .footer_text {
+        padding: 20px;
+    }
+
+    .footer_text ul {
+        gap: 15px;
+    }
+
+    .footer_text ul li:last-child a {
+        margin-left: 0;
+    }
+
+    .donation_form_content .amount_box button {
+        padding: 10px 28px;
+    }
+
+    .donation_form_content .amount_box button {
+        padding: 6px 18px;
+    }
+
+    .donation_form_content .amount_box input {
+        padding: 6px 20px;
+    }
+}
+
+@media (max-width: 575.99px) {
+    .main_menu {
+        height: 70px;
+    }
+
+    .main_menu .navbar-brand {
+        width: 65px;
+    }
+
+    .main_menu .container {
+        padding: 16px 15px !important;
+    }
+
+    #navbarSupportedContent {
+        background: #fff;
+        padding: 20px;
+        border-top: 1px solid #ddd;
+        margin-top: 5px;
+        border-radius: 0px 0px 10px 10px;
+        height: auto;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-weight: 400;
+        padding: 10px 25px;
+    }
+
+    .main_menu .menu_right {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .banner_text h1 {
+        font-size: 34px;
+        line-height: initial;
+    }
+
+    .banner div {
+        height: auto;
+    }
+
+    .banner {
+        height: auto;
+        padding: 70px 0px 100px 0px;
+    }
+
+    .what_we_do {
+        padding-top: 100px;
+    }
+
+    .what_we_do_text {
+        padding-right: 0;
+    }
+
+    .what_we_do_text h3 {
+        font-size: 28px;
+    }
+
+    .what_we_do_img {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .leadership_bg {
+        padding: 20px;
+    }
+
+    .leadership_text h3,
+    .leadership_text h3 span {
+        font-size: 28px;
+        line-height: initial;
+        max-width: 100%;
+    }
+
+    .leadership_text h6 {
+        font-size: 28px;
+    }
+
+    .our_work_img {
+        padding: 0;
+    }
+
+    .our_work_text {
+        margin-top: 30px;
+    }
+
+    .footer_text {
+        padding: 20px;
+    }
+
+    .footer_text ul {
+        gap: 15px;
+    }
+
+    .footer_text ul li:last-child a {
+        margin-left: 0;
+    }
+
+    .donation_text h2,
+    .donation_text h2 span {
+        font-size: 20px;
+    }
+
+    .donation_form_content .amount_box button {
+        padding: 10px 28px;
+    }
+
+    .contact_info ul li span {
+        width: 100%;
+    }
+
+    .contact_info,
+    .contact_form {
+        padding: 30px;
+    }
+
+    .main_menu .navbar-collapse {
+        max-width: 100%;
+    }
+}

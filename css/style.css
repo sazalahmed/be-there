@@ -1,0 +1,911 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+span {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    resize: none;
+    border: 1px solid #E4E7E9;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #a6a6ac;
+}
+
+button {
+    border: none;
+}
+
+/*===================
+    MENU START
+===================*/
+.main_menu {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 99;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu .container {
+    height: 100%;
+    padding: 0px 30px;
+    transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu .navbar-brand {
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link {
+    margin: 0;
+    color: #584B2F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 25px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link:hover {
+    color: #F4B21E;
+}
+
+.main_menu .menu_right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_menu .menu_right li:last-child a:hover,
+.main_menu .menu_right li a {
+    border-radius: 8px;
+    background: #EEEBDA;
+    color: #2E2C2C;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 19px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu .menu_right li a:hover,
+.main_menu .menu_right li:last-child a {
+    color: #fff;
+    background: #F4B21E;
+}
+
+.main_menu.menu_fix {
+    height: 70px;
+}
+
+.main_menu.menu_fix .container {
+    padding: 0px 12px;
+}
+
+.main_menu.menu_fix .navbar-brand {
+    width: 130px;
+}
+
+/* for mobile menu start */
+.navbar-toggler {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+    background: #F4B21E;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* for mobile menu end */
+
+.main_menu .navbar-collapse {
+    background: #fff;
+    height: 100%;
+    /* width: 30%; */
+    max-width: 63%;
+    padding-right: 30px;
+    border-radius: 0px 0px 16px 16px;
+}
+
+/*===================
+    MENU END
+===================*/
+
+/*===================
+    BANNER START
+===================*/
+.banner {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+}
+
+.banner div {
+    height: 100%;
+}
+
+.banner_text {
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.banner_text h1 {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+
+.banner_text p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.banner_text a {
+    border-radius: 8px;
+    background: #F4B21E;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 21px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_text a span {
+    display: block;
+    width: 25px;
+    margin-left: 5px;
+}
+
+.banner_text a:hover {
+    background: #2E2C2C;
+}
+
+/*===================
+    BANNER END
+===================*/
+
+/*=======================
+    WHAT WE DO START
+=======================*/
+.what_we_do {
+    position: relative;
+    z-index: 1;
+    padding-top: 150px;
+}
+
+.what_we_do::after {
+    position: absolute;
+    content: "";
+    background: url(../images/we_do_bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.what_we_do_text {
+    padding-right: 30px;
+}
+
+.what_we_do_text h5 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 35px;
+}
+
+.what_we_do_text h5::after {
+    position: absolute;
+    content: "";
+    background: url(../images/we_do_shapes.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 18px;
+    top: 1px;
+    left: 0;
+    z-index: -1;
+}
+
+.what_we_do_text h3 {
+    color: #584B2F;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.what_we_do_text p {
+    color: #584B2F;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.what_we_do_text p span {
+    background: #dbd7cd;
+    color: #584B2F;
+}
+
+.what_we_do_img {
+    margin-left: 30px;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/*=======================
+    WHAT WE DO END
+=======================*/
+
+/*===================
+    LEADERSHIP START
+===================*/
+.leadership_bg {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 90px;
+}
+
+.leadership_text h4 {
+    color: #2E2C2C;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 5.6px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.leadership_text h3,
+.leadership_text h3 span {
+    color: #584B2F;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    max-width: 64%;
+    margin: 0 auto;
+}
+
+.leadership_text h3 span {
+    color: #F4B21E;
+}
+
+.leadership_text p {
+    color: #584B2F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    margin-top: 45px;
+}
+
+.leadership_text h6 {
+    color: #2E2C2C;
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 50px;
+}
+
+/*===================
+    LEADERSHIP END
+===================*/
+
+/*===================
+    OUR WORK START
+===================*/
+.our_work {
+    padding: 100px 0px;
+}
+
+.our_work_img {
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px 20px;
+}
+
+.our_work_text h3 {
+    color: #584B2F;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.our_work_text p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.our_work_text p span {
+    font-style: italic;
+}
+
+.our_work_text p b {
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+/*===================
+    OUR WORK END
+===================*/
+
+/*===================
+    FOOTER START
+===================*/
+.footer_bg {
+    border-radius: 16px 16px 0px 0px;
+    background: #D9D9D9;
+}
+
+.footer_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footer_text p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer_text ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer_text ul li a {
+    color: #584B2F;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.footer_text ul li a:hover {
+    color: #000;
+}
+
+.footer_text ul li:last-child a {
+    border-radius: 8px;
+    background: #EEEBDA;
+    color: #2E2C2C;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 19px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    margin-left: 25px;
+}
+
+.footer_text ul li:last-child a:hover {
+    color: #fff;
+    background: #F4B21E;
+}
+
+/*===================
+    FOOTER END
+===================*/
+
+/*===================
+    DONATION START
+===================*/
+.donation {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.donation_text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.donation_text .logo {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.donation_text h2 {
+    color: #2E2C2C;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.donation_text h2 span {
+    font-size: 30px;
+    color: #F4B21E;
+    font-weight: 600;
+}
+
+.donation_text p {
+    overflow: hidden;
+    color: #2E2C2C;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.donation_form_area {
+    background: rgba(217, 217, 217, 0.25);
+    padding-top: 55px;
+    margin-top: 45px;
+}
+
+.donation_form .nav-pills {
+    justify-content: center;
+    gap: 40px;
+}
+
+.donation_form .nav-item .nav-link {
+    color: #2E2C2C;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    padding: 0;
+}
+
+.donation_form .nav-item .nav-link.active {
+    border-color: #2E2C2C;
+    background: none;
+    color: #2E2C2C;
+}
+
+.donation_form_content span {
+    color: #2E2C2C;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.donation_form_content .amount_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.donation_form_content .amount_box button {
+    border-radius: 3px;
+    border: 1px solid #B7C5CA;
+    padding: 10px 35px;
+    color: #2E2C2C;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    background: none;
+}
+
+.donation_form_content .amount_box button:hover {
+    background: #F4B21E;
+    color: #fff;
+}
+
+.donation_form_content .amount_box input {
+    width: auto;
+    border: 1px solid #B7C5CA;
+    background: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.donation_form_content .amount_box input::placeholder {
+    color: #2E2C2C;
+}
+
+.donation_form_content .email_area {
+    position: relative;
+}
+
+.donation_form_content .form-check {
+    margin-top: 10px;
+}
+
+.donation_form_content .form-check .form-check-input {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.donation_form_content .form-check .form-check-label {
+    color: #2E2C2C;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.donation_form_content .email_area .email {
+    border: 1px solid #B7C5CA;
+    background: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.donation_form_content .email_area::after {
+    position: absolute;
+    content: "";
+    background: url(../images/visa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 13px;
+    bottom: 15px;
+    right: 20px;
+}
+
+.donation_form_content h3 {
+    color: #2E2C2C;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 2px solid #2E2C2C;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+.donation_form_content .single_input {
+    margin-top: 10px;
+}
+
+.donation_form_content .single_input label {
+    color: #2E2C2C;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.donation_form_content .single_input input {
+    border: 1px solid #B7C5CA;
+    background: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.donation_form_content .check_bottom {
+    margin-top: 20px;
+}
+
+.form-check-input:checked {
+    background-color: #5BAA76;
+    border-color: #5BAA76;
+}
+
+.donation_form_content .donate_btn {
+    border-radius: 3px;
+    background: #F4B21E;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px;
+    margin-top: 55px;
+    position: relative;
+    margin-bottom: 45px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.donation_form_content .donate_btn::after {
+    position: absolute;
+    content: "";
+    background: url(../images/shapes.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 75px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.donation_form_content .donate_btn:hover {
+    background-color: #2E2C2C;
+    color: #fff;
+}
+
+/*===================
+    DONATION END
+===================*/
+
+
+/*===================
+    CONTACT START
+===================*/
+.contact_bg {
+    background: url(../images/contact_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact_bg .footer_bg {
+    border-radius: 16px 16px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.contact_text {
+    margin-top: 155px;
+}
+
+.contact_text h3 {
+    color: #584B2F;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.contact_text .nav-pills {
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.contact_text .nav-pills .btns {
+    border-radius: 40px;
+    background: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_text .nav-pills .nav-item button {
+    color: #584B2F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 23px;
+    border-radius: 50px;
+}
+
+.contact_text .nav-pills .nav-item button:hover,
+.contact_text .nav-pills .nav-item button.active {
+    background: #F4B21E;
+    color: #fff;
+}
+
+.contact_info,
+.contact_form {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    margin-bottom: 150px;
+}
+
+.contact_info p {
+    color: #584B2F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contact_info ul li {
+    color: #584B2F;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.contact_info ul li span {
+    color: #2E2C2C;
+    font-size: 16px;
+    font-weight: 300;
+    width: 140px;
+    display: inline-block;
+}
+
+.contact_info ul li a {
+    margin-right: 10px;
+}
+
+.contact_form h3 {
+    margin-bottom: 10px;
+}
+
+.contact_form input,
+.contact_form textarea {
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contact_form button {
+    background: #F4B21E;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px;
+    margin-top: 15px;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    border-radius: 8px;
+}
+
+.contact_bg .navbar-brand {}
+
+/*===================
+    CONTACT END
+===================*/
